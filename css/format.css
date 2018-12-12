@@ -1,55 +1,69 @@
-﻿body,html {
-    height:100%;
-    margin:0;
+﻿html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family:"Open Sans";
 }
+
+h1 {
+    margin:0 
+}
+
+.top-img{
+    position: relative;
+    height:25%;
+    background-image:url(../img/beach.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
 
 .top-bar{
-  background-image: url("../img/nightmarket.jpg");
-  height: 20%;
- 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
+    background-color:black;
+    opacity:0.75;
+    position: absolute;
+    width:100%;
+    top: 100%; left: 50%;
+    transform: translate(-50%,-100%);
+  
 }
 
-.top-bar h1{
-  float:left;
-  background-color:black;
-  color: #f2f2f2; /*move*/
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+header{
+   text-align: center;
+   font-size: 35px;
+   color: white;
 }
+
 
 .side-bar{
-  width:20%;
-  min-width: 130px;
-  position: fixed;
-  z-index: 1;
-  background: #eee;
-  overflow-x: hidden;
-  padding: 8px 0;
+    background-color:dimgray;
+    float:left;
+    padding:20px;
+    width:20%;
 }
+
 .side-bar a{
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #2196F3;
-  display: block;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    font-size:25px;
 }
 
 .side-bar a:hover{
-    color: #064579;
+    background-color:white;
 }
 
 .bg-content{
-    background-image:url(../img/temple2.jpg);
-    margin-left: 20%;
-    height:100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+
+section::after{
+   content: "";
+   display: table;
+   clear: both;
 }
 
