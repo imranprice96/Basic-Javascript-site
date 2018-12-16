@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript</title>
+	<meta charset="utf-8" />
+
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="css/format.css" />
+    <link rel="stylesheet" type="text/css" href="css/colors.css" />
+    <script src="js/menu.js"></script>
+    
+</head>
+<body>
+    <div class="top-img">
+        <div class="top-bar">
+            <header><h1>Javascript</h1></header>
+        </div>
+    </div>
+
+    <section>
+        <div class="side-bar">
+            <a href="index.html">Home</a>
+            <a href="datatypes.html">Data Types</a>
+            <a href="variables.html">Variables</a>
+            <a href="strings.html">Strings</a>
+            <a href="loops.html">Loops</a>
+            <a href="conditions.html">Conditions</a>
+            <a href="functions.html">Functions</a>
+
+            <button id="default open" class="tablinks" onclick="openTab(event, 'datatypes')">Data Types</button>
+            <button class="tablinks" onclick="openTab(event, 'variables')">Variables</button>
+            <button class="tablinks" onclick="openTab(event, 'strings')">Strings</button>
+            <button class="tablinks" onclick="openTab(event, 'loops')">Loops</button>
+            <button class="tablinks" onclick="openTab(event, 'conditions')">Conditions</button>
+            <button class="tablinks" onclick="openTab(event, 'functions')">Functions</button>
+
+        </div>
+
+        <div id="datatypes" class="sb-content">
+            <p>Datatypes</p>
+        </div>
+        <div id="variables" class="sb-content">
+            <p>Vars</p>
+        </div>
+        <div id="strings" class="sb-content">
+            <p>strings</p>
+        </div>
+        <div id="loops" class="sb-content">
+            <p>loops</p>
+        </div>
+        <div id="conditions" class="sb-content">
+            <p>conditions</p>
+        </div>
+        <div id="functions" class="sb-content">
+            <p>functions</p>
+        </div>
+
+    </section>
+
+    <script>document.getElementById("defaultOpen").click();</script>
+
+    <footer></footer>
+</body>
+
+</html>

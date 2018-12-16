@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript - JS part 1</title>
+	<meta charset="utf-8" />
+
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="css/format.css" />
+    <link rel="stylesheet" type="text/css" href="css/colors.css" />
+    <link rel="stylesheet" type="text/css" href="css/jsPages.css" />
+    <script src="js/menu.js"></script>
+</head>
+<body>
+    <div class="top-img">
+        <div class="top-bar">
+            <header><h1>Javascript</h1></header>
+        </div>
+    </div>
+
+    <section>
+        <div class="side-bar">
+
+            <a href="index.html">Home</a>
+            <a href="#">Javascript 1</a>
+            <a href="#">Javascript 2</a>
+            <a href="#">About</a>
+
+        </div>
+
+        <div class="pg-header">
+            <h1>Javascript Part 1</h1>
+        </div>
+
+        <button class="tablink" onclick="openTab(event,'datatypes')" id="default">Data Types</button>
+        <button class="tablink" onclick="openTab(event,'variables')">Variables</button>
+        <button class="tablink" onclick="openTab(event,'strings')">Strings</button>
+
+        <div id ="datatypes" class="tabcontent">
+            <h1>Data Types</h1>
+            <p>info about data types</p>
+        </div>
+
+        <div id="variables" class="tabcontent">
+            <h1>Variables</h1>
+            <p>info about variables</p>
+        </div>
+
+        <div id="strings" class="tabcontent">
+            <h1>Strings</h1>
+            <p>info about strings</p>
+        </div>
+
+        <script>document.getElementById("default").click();</script>
+
+    </section>
+</body>
+</html>
