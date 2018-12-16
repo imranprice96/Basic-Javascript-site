@@ -1,0 +1,118 @@
+﻿html,body {
+  font-family:"Open Sans";
+}
+
+body{
+    background-color:#1e2c42;
+}
+
+
+.top-img{
+    background-image:url(../img/sunrise.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.top-bar{
+    opacity:0.9;
+    background-color:black;;
+
+ 
+}
+
+header{
+   text-align: center;
+   font-size: 35px;
+   color: white;
+}
+
+section{
+  height:100%;
+}
+
+.side-bar{
+    height:100%;
+    background-color:#111926;
+    float:left;
+    padding:20px;
+    width:15%;
+    margin-right:20px;
+    opacity:0.9;
+}
+
+.side-bar a{
+    display:block;
+    color:white;
+    padding:10px;
+    font-size:25px;
+    text-decoration:none;
+}
+
+.side-bar a:hover{
+    background-color:cornflowerblue;
+}
+
+.side-bar a.active{
+    background-color:blue;
+}
+
+
+.content{
+  margin-top:10px;
+  border-radius:2px;
+  float: left;
+  padding: 20px;
+  width: 75%;
+  background-color: #f1f1f1;
+}
+
+section::after{
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.pg-header{
+    color:white;
+    font-size:32px;
+}
+
+.p-img{
+   border-radius:5px;
+   width:400px;
+   float:left;
+   margin-right:10px;
+}
+
+#bg {
+  z-index:-1;
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  opacity:0.8;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
